@@ -3,6 +3,8 @@
 //
 import {InLineStyle} from "./components/InLineStyle";
 import {CssModules} from "./components/CssModules";
+import {StyledJsx} from "./components/StyledJsx"
+import {StyledComponents} from "./components/StyledComponents";
 
 export const App = () => {
 //
@@ -33,6 +35,8 @@ export const App = () => {
             {/*<p>{count}</p>*/}
             <InLineStyle/>
             <CssModules/>
+            <StyledJsx/>
+            <StyledComponents/>
         </>
     )
 }
